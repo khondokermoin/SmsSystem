@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home_fragment"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+
+    <item
+        android:id="@+id/terms_fragment"
+        android:title="Contact"
+        android:icon="@drawable/contact"/>
+
+
+    <item android:title="SMS System"
+        android:id="@+id/profielFragment">
+        <menu>
+            <item android:id="@+id/send"
+                android:icon="@drawable/send"
+                android:title="send"/>
+
+            <item android:id="@+id/receive"
+                android:title="receive"
+                android:icon="@drawable/receive">
+            </item>
+        </menu>
+    </item>
+</menu>
